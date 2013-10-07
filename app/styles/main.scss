@@ -1,0 +1,39 @@
+$iconSpritePath: "../images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+
+@import "bootstrap-sass/lib/bootstrap";
+
+ul.inline{
+  li{
+    display: inline-block;
+  }
+}
+td li{
+  button{
+    visibility: hidden;
+  }
+  &:hover{
+    button{
+      visibility: visible;
+    }
+  }
+}
+tbody{
+  th{
+    cursor: pointer;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+.action{
+  text-align: center;
+  button{
+    visibility: hidden;
+  }
+  &:hover{
+    button{
+      visibility: visible;
+    }
+  }
+}
